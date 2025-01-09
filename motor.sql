@@ -10,7 +10,7 @@ CREATE TABLE Motor (
 -- Create table for Cycle
 CREATE TABLE Cycle (
     id INT PRIMARY KEY,
-    brand VARCHAR(50),
+    brand VARCHAR(40),
     model VARCHAR(50),
     type VARCHAR(50),
     price DECIMAL(10, 2)

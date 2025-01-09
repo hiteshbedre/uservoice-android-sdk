@@ -11,7 +11,7 @@ CREATE TABLE Motor (
 CREATE TABLE Cycle (
     id INT PRIMARY KEY,
     brand VARCHAR(40),
-    model VARCHAR(40),
+    model VARCHAR(35),
     type VARCHAR(35),
     price DECIMAL(10, 2)
 );

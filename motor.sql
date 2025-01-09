@@ -1,7 +1,7 @@
 -- Create table for Motor
 CREATE TABLE Motor (
     id INT PRIMARY KEY,
-    brand VARCHAR(40),
+    brand VARCHAR(50),
     model VARCHAR(40),
     engine_capacity INT,
     price DECIMAL(10, 2)
